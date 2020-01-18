@@ -1,0 +1,110 @@
+html,
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: "product-sans";
+	background-color: black;
+	color: white;
+}
+@font-face {
+	font-family: "product-sans";
+	src: url(Product\ Sans\ Regular.ttf);
+}
+#background {
+	background: url(background.png);
+	min-height: 100%;
+	min-width: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#menu {
+	padding: 30px;
+	display: flex;
+}
+#menu-buttons {
+	margin-left: auto;
+}
+.button {
+	background-color: rgba(0,0,0,0);
+	border: none;
+	color: white;
+	padding: 15px 40px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 50px;
+	margin-top: 30px;
+	cursor: pointer;
+	outline: none;
+}
+  .button-selected {
+	border: none;
+	padding: 15px 40px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 50px;
+	margin-top: 30px;
+	cursor: pointer;
+	background-color: rgba(0,0,0,0);
+	background: -webkit-linear-gradient(rgba(255,0,0,1), rgba(255,0,127,1));
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	cursor: pointer;
+	outline: none;
+}
+@media screen and (prefers-color-scheme: light) {
+	body {
+	  background-color: white;
+	  color: black
+	}
+}
+#home-text1 {
+	font-size: 75px;
+	text-align: center;
+}
+#home-text2 {
+	font-size: 30px;
+	margin-top: 100px;
+	text-align: center;
+}
+#footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(0,0,0,0);
+	color: white;
+	text-align: right;
+	font-size: 15px;
+	font-family: arial;
+}
+#about-text {
+	font-size: 30px;
+	margin-left: 60px;
+	margin-right: 60px;
+	text-align: justify;
+}
+#monster {
+	color: rgb(9,255,0);
+}
+#text-contact1 {
+	font-size: 30px;
+}
+#text-contact2 {
+	font-size: 20px;
+}
+table.Table {
+	width: 100%;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+table.Table tbody td {
+	width: 14.2%;
+	padding: 20px;
+	vertical-align: top;
+}

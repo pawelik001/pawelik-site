@@ -28,6 +28,34 @@ body {
 	padding: 30px;
 	display: flex;
 }
+#lang-us {
+	padding-top: 10px;
+	padding-right: 80px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+#lang-us-sel {
+	padding-top: 8px;
+	padding-right: 78px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+#lang-pl {
+	padding-top: 10px;
+	padding-right: 10px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+#lang-pl-sel {
+	padding-top: 8px;
+	padding-right: 8px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
 #menu-buttons {
 	margin-left: auto;
 }
@@ -39,7 +67,7 @@ body {
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 50px;
+	font-size: 45px;
 	margin-top: 30px;
 	cursor: pointer;
 	outline: none;
@@ -50,7 +78,7 @@ body {
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 50px;
+	font-size: 45px;
 	margin-top: 30px;
 	cursor: pointer;
 	background-color: rgba(0,0,0,0);
